@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1500px;
+    justify-content: center;
+}
+.containerImg{
+    height: 900px;
+    width: 120px;
+    border-radius: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: width 1s ease-in;
+}
+.fullSize{
+    width: 900px
+}
+
+#img1{
+    background-image: url("https://i.pinimg.com/originals/63/e1/01/63e101d6e6bae90782ad082b199a8d14.jpg");
+    background-position: center;
+}
+#img2{
+    background-image: url("https://i.pinimg.com/736x/88/91/ad/8891ad34796856b859b66f852e85aff9--nostalgia-emblem.jpg");
+    background-position: center;
+}
+#img3{
+    background-image: url("https://i.pinimg.com/originals/af/bf/8b/afbf8b124946a46d6908fbc514c7af3a.jpg");
+    background-position: center;
+}
+#img4{
+    background-image: url("https://pm1.narvii.com/6287/23c24de07bf17306533fce1f6c56070dcb66f134_hq.jpg");
+    background-position: center;
+}
+#img5{
+    background-image: url("https://i.pinimg.com/originals/7a/14/f9/7a14f9d8cf45dd244393c3580675a506.jpg");
+    background-position: center;
+}
